@@ -13,10 +13,10 @@ const ProjectSection = () => {
     <div className=" pt-[60px] pb-[80px] bg-white" id="projects">
       <div className="container">
         <AnimateY initial="hidden" animate="visible">
-          <motion.h2 className="section_header">Current Focus</motion.h2>
+          <motion.h2 className="section_header">Recently Completed</motion.h2>
           <motion.p variants={txtAnim} className="sub_title txt mt-[10px]">
-            These are the projects I’m currently handling as a Senior Frontend
-            Developer.
+            These are some of the projects I’ve recently completed as a Senior
+            Frontend Developer.
           </motion.p>
         </AnimateY>
 

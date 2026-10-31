@@ -91,6 +91,7 @@ const Herosection = () => {
             </motion.div>
           </Link>
         </motion.div>
+
         {/* IMAGE SECTION */}
         <motion.div
           variants={animateX}
@@ -103,7 +104,7 @@ const Herosection = () => {
             width={1000}
             height={1000}
             alt="profile image"
-            className="profile_img  size-[400px] border-4 border-primary p-2"
+            className="profile_img  size-[400px] border-4 border-primary p-2  object-cover object-top "
           />
         </motion.div>
       </div>
