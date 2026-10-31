@@ -60,7 +60,7 @@ const Herosection = () => {
           </motion.div>
 
           <Link
-            href={"https://www.assetsmfb.com"}
+            href={"https://pozse.com"}
             target="_blank"
             className="absolute -bottom-[130px] max-lg:!relative max-lg:-bottom-12"
           >
@@ -69,7 +69,7 @@ const Herosection = () => {
               className="flex  items-center gap-[15px] mt-[10px] bg-white p-[10px] rounded-md w-fit cursor-pointer group transition-all"
             >
               <Image
-                src="/latest-company.png"
+                src="/pozse.png"
                 alt="Current company logo"
                 height={40}
                 width={40}
