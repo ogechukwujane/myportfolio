@@ -76,7 +76,7 @@ const AboutSection = () => {
 
         <AnimateY initial="hidden" animate="visible" varient={txtConAnim}>
           <div className="mt-[70px] flex justify-center">
-            <Link href={"/ugonna-new-resume.pdf"}>
+            <Link href={"/Oge_Ikedinma_Resume.pdf"}>
               <button className="btn">Download cv</button>
             </Link>
           </div>

@@ -76,129 +76,87 @@ export const Projects = [
   {
     id: "1",
     title: "Pozse",
-    unboardImage: "/projects/oliviastores.png",
-    images: [
-      "/projects/olivia1.png",
-      "/projects/olivia2.png",
-      "/projects/olivia3.png",
-      "/projects/olivia4.png",
-      "/projects/olivia5.png",
-      "/projects/olivia6.png",
-      "/projects/olivia7.png",
-    ],
-    liveLink: "https://olivia-stores.com",
-    githubLink: "private",
+    unboardImage: "/projects/macbook-air-pozse.png",
+    images: ["/projects/pozse-display.png"],
+    liveLink: "https://pozse.com",
     shortDesc:
-      "We’re rolling out fresh templates, smoother transactions, and partnering with Assets Bank to let users effortlessly manage their business accounts — all within Olivia’s platform.",
+      "Pozse is a video-first fashion commerce platform that makes discovering and purchasing fashion products easier and more trustworthy. Shoppers can explore short product videos, shop directly from content, and discover products from brands, sellers, and creators.",
     longDesc:
-      "<p>Pozse is a video-first fashion commerce platform designed to make discovering and purchasing fashion products easier and more trustworthy. It allows shoppers to discover products through short videos and purchase directly from the content. The platform connects fashion enthusiasts, content creators, brands, and sellers in one ecosystem, with product tagging, seller verification, and product inspection before delivery intended to improve buyer confidence and the shopping experience.</p>",
-
+      "<p>Pozse is a video-first fashion commerce platform designed to make discovering and purchasing fashion products easier and more trustworthy. It allows shoppers to discover products through short videos and purchase directly from the content. The platform connects fashion enthusiasts, content creators, brands, and sellers in one ecosystem, with product tagging, seller verification, and product inspection before delivery intended to improve buyer confidence and the shopping experience.</p><h3>Key Features</h3><ul><li><strong>Video-Based Fashion Discovery:</strong> Discover fashion products through short, engaging videos.</li><li><strong>Direct Video Shopping:</strong> Purchase products directly from the videos showcasing them.</li><li><strong>Product Tagging:</strong> Connect products to video content for easier discovery and purchasing.</li><li><strong>Creator-Led Commerce:</strong> Enable creators to showcase fashion products and connect audiences with sellers.</li><li><strong>Brand and Seller Participation:</strong> Bring fashion brands and sellers together on one commerce platform.</li><li><strong>Seller Verification and Product Inspection:</strong> Build buyer confidence through seller verification and product inspection before delivery.</li><li><strong>Personalised Fashion Discovery:</strong> Help shoppers discover fashion products that match their interests.</li></ul>",
     tools: [
-      "Next.js",
-      "Tailwind CSS",
-      "Redux Toolkit",
+      "React Native",
+      "TypeScript",
+      "JavaScript",
+      "Redux",
       "React Query",
-      "Shadcn",
+      "REST API Integration",
+      "Mobile App Development",
+      "Social Commerce",
+      "E-commerce",
+      "Responsive UI Development",
     ],
-  },
-  {
-    id: "6",
-    title: "Oneway",
-    unboardImage: "/projects/urbango.png",
-    images: [
-      "/projects/urbango2.png",
-      "/projects/urbango3.png",
-      "/projects/urbango4.png",
-      "/projects/urbango5.png",
-      "/projects/urbango6.png",
-    ],
-    liveLink: "private",
-    githubLink: "private",
-    shortDesc:
-      "Urbango is a ride-hailing startup offering services similar to Uber. The Urbango Admin is the central dashboard that manages drivers, riders, transactions, and overall platform operations to ensure smooth and secure service delivery.",
-    longDesc:
-      "<p>Urbango Admin is the central management dashboard for the Urbango ride-hailing platform, providing comprehensive tools to manage drivers, riders, and transactions.</p><p>As a frontend developer contracted to Urbango, I built and maintained the admin dashboard using Next.js, Tailwind CSS, React Query, and Redux. I focused on creating a secure, responsive, and intuitive UI that allows administrators to:</p><ul><li>Approve or reject driver registrations and verify their documents. </li><li>Monitor live ride statistics, user activity, and transaction histories.</li><li>Manage driver performance, payouts, and rider accounts efficiently.</li><li>Handle customer service operations including complaints and refunds.</li><li>Configure pricing, discounts, and security features like OTP verification.</li></ul><p>My work ensured a seamless and scalable management experience that supports Urbango’s growth, with an emphasis on performance, usability, and robust state management.</p>",
-
-    tools: ["Next.js", "SCSS", "Redux Toolkit", "React Query"],
   },
   {
     id: "2",
-    title: "9Mobile",
-    unboardImage: "/projects/carepulse.png",
-    images: [
-      "/projects/carepulse1.png",
-      "/projects/carepulse2.png",
-      "/projects/carepulse3.png",
-      "/projects/carepulse4.png",
-      "/projects/carepulse5.png",
-      "/projects/carepulse6.png",
-      "/projects/carepulse7.png",
-      "/projects/carepulse8.png",
-      "/projects/carepulse9.png",
-    ],
-    liveLink: "https://health-care-git-main-ugonnas-projects.vercel.app",
-    githubLink: "https://github.com/ugonna-onyejekwe/healthCare.git",
+    title: "Oneway",
+    unboardImage: "/projects/macbook-air-oneway.png",
+    images: ["/projects/oneway-display.png"],
+    liveLink: "https://oneway.ng",
     shortDesc:
-      "CarePlus is a hospital admin platform I built to streamline appointment booking. Users can select doctors and schedule appointments, while doctors can review and approve requests—all through a clean, responsive interface.",
-    longDesc:
-      "<p>CarePlus is a private project designed to simplify hospital appointment management. Built with Next.js, Appwrite, Tailwind CSS, and shadcn UI components, it enables users to easily browse available doctors and book appointments directly through the platform. Doctors receive notifications of new appointment requests and can approve or decline them, ensuring smooth communication between patients and medical staff.</p><p>I focused on creating an intuitive, user-friendly interface that balances accessibility with functionality. The system offers real-time updates, secure data handling with Appwrite backend services, and responsive design for seamless use across devices. CarePlus showcases my ability to architect and deliver a full-stack solution that addresses real-world needs in healthcare management.</p>",
-    tools: ["Next.js", "Tailwind CSS", "Typescript", "AppWrite"],
-  },
-  {
-    id: "4",
-    title: "Moviehub",
-    unboardImage: "/projects/moviehub.png",
-    images: [
-      "/projects/moviehub1.png",
-      "/projects/moviehub2.png",
-      "/projects/moviehub3.png",
-      "/projects/moviehub4.png",
-      "/projects/moviehub5.png",
-      "/projects/moviehub6.png",
-      "/projects/moviehub7.png",
-      "/projects/moviehub8.png",
-      "/projects/moviehub9.png",
-      "/projects/moviehub10.png",
-    ],
-    liveLink: "https://moviehub-dun.vercel.app",
-    githubLink: "https://github.com/ugonna-onyejekwe/moviehub.git",
-    shortDesc:
-      "Movie Hub is a personal project I built to sharpen my skills in web development. It allows users to search for movies and read reviews through a sleek, responsive interface.",
+      "Oneway is an AI-powered retail technology platform that helps supermarkets and retailers manage inventory, sales, payments, and online storefronts. It combines POS functionality with mobile self-checkout, enabling customers to scan products, pay digitally, and enjoy a seamless shopping experience.",
 
-    longDesc:
-      "<p>Movie Hub is a passion project aimed at enhancing my frontend development skills. The platform enables users to search for movies, view detailed information, and read reviews, all wrapped in a clean, user-friendly design. I focused on building responsive UI components, integrating external movie APIs, and ensuring smooth search and filtering functionality.</p><p>This project helped me deepen my understanding of state management, API integration, and responsive design, showcasing my ability to build engaging, real-world web applications independently.</p>",
-    tools: ["React.js", "Redux Toolkit", "SASS", "Swiper.js"],
+    longDesc: `
+  <p>Oneway is an AI-powered retail technology platform designed to simplify supermarket and retail operations through intelligent inventory management, point-of-sale (POS) functionality, and digital shopping experiences.</p>
+
+  <p>The platform provides businesses with an integrated solution to manage their stores while giving customers the convenience of shopping and checking out independently.</p>
+
+  <h3>Key Features</h3>
+  <ul>
+    <li><strong>Inventory Management:</strong> Manage inventory, stock levels, and real-time product availability.</li>
+    <li><strong>Point of Sale (POS):</strong> Process sales through an integrated POS system with digital payment support.</li>
+    <li><strong>Mobile Self-Checkout:</strong> Enable Scan & Go shopping, allowing customers to scan products, pay digitally, and track their spending.</li>
+    <li><strong>Online Storefront:</strong> Create and manage online storefronts, customer orders, and order tracking.</li>
+    <li><strong>Multi-Branch Management:</strong> Manage inventory across multiple store branches with centralized visibility.</li>
+    <li><strong>Sales Analytics:</strong> Access business insights to monitor performance and support informed decisions.</li>
+  </ul>
+`,
+
+    tools: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "React Query",
+      "REST API Integration",
+      "POS Integration",
+      "E-commerce Development",
+      "Inventory Management",
+      "Responsive Web Development",
+    ],
   },
   {
-    id: "5",
-    title: "Novacart",
-    unboardImage: "/projects/nova.png",
-    images: [
-      "/projects/novacart1.png",
-      "/projects/novacart2.png",
-      "/projects/novacart3.png",
-      "/projects/novacart4.png",
-      "/projects/novacart5.png",
-      "/projects/novacart6.png",
-      "/projects/novacart7.png",
-      "/projects/novacart7.png",
-      "/projects/novacart8.png",
-      "/projects/novacart9.png",
-      "/projects/novacart10.png",
-      "/projects/novacart11.png",
-      "/projects/novacart12.png",
-      "/projects/novacart13.png",
-      "/projects/novacart14.png",
-      "/projects/novacart15.png",
-      "/projects/novacart16.png",
-    ],
-    liveLink: "https://novacart.vercel.app/",
-    githubLink: "https://github.com/ugonna-onyejekwe/Novacart.git",
+    id: "3",
+    title: "9Mobile",
+    unboardImage: "/projects/macbook-air-t2mobile.png",
+    images: ["/projects/t2mobile-display.png"],
+    liveLink: "https://t2mobile.com.ng/about-us",
     shortDesc:
-      "Nova Cart is a private e-commerce project focused on crafting a smooth and attractive user interface. Users can browse products, add items to their cart, and mark favorites, all within a sleek, responsive design.",
+      "T2mobile is a Nigerian telecommunications provider offering voice, mobile data, and digital services. Its digital platforms allow customers to manage their accounts, purchase airtime and data, make payments, and access essential services.",
     longDesc:
-      "<p>Nova Cart is an e-commerce platform I developed primarily to hone my UI skills. Built with React, Redux, and SCSS, it allows users to explore products, add them to their shopping cart, and save favorites for later. While the core functionalities are straightforward, the project emphasizes creating a polished, user-friendly interface with smooth interactions and clear visuals.<p><p>This project showcases my attention to detail in UI/UX design, component structuring, and state management, reinforcing my ability to build appealing and maintainable frontends.</p>",
-    tools: ["React.js", "SCSS", "Redux Toolkit"],
+      "<p>T2mobile, formerly known as 9mobile, is a Nigerian telecommunications provider offering voice, mobile data, and digital communication services to individuals and businesses. Beyond connectivity, its digital services include airtime and data purchases, mobile payments, bill payments, financial services, and access to other digital products. Its platforms help customers manage telecommunications services and access essential digital transactions through online and mobile experiences.</p><h3>Key Features</h3><ul><li><strong>Telecommunications Services:</strong> Access mobile voice, data, and connectivity services.</li><li><strong>Airtime and Data Purchases:</strong> Buy airtime and mobile data through digital platforms.</li><li><strong>Digital Payments:</strong> Make payments and complete essential digital transactions.</li><li><strong>Utility Bill Payments:</strong> Pay supported utility bills conveniently online.</li><li><strong>Customer Account Management:</strong> Manage telecommunications services through web and mobile experiences.</li><li><strong>Additional Digital Services:</strong> Access other financial and digital products within the platform.</li></ul>",
+    tools: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Tailwind CSS",
+      "REST API Integration",
+      "State Management",
+      "Payment Integration",
+      "Telecommunications Applications",
+      "Responsive Web Development",
+    ],
   },
 ];
 
