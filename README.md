@@ -1,35 +1,75 @@
+# Personal Portfolio
+
+A personal portfolio website owned and built by **Ogechukwu Philomena Gerald-Ikedinma**.
+
+The website showcases selected projects, technical skills, and professional experience, providing an overview of my work as a developer.
+
+## Live Website
+
+[https://myportfolio-zeta-coral.vercel.app](https://myportfolio-zeta-coral.vercel.app)
+
+## About the Project
+
+This portfolio was created to present my work, highlight projects I have contributed to, and provide a central place for people to explore my development experience and skills.
+
+It includes:
+
+- **Projects:** A showcase of selected web and mobile applications.
+- **Project Details:** Information about each project, its purpose, and my contributions.
+- **Technical Skills:** Technologies, tools, and frameworks used in development.
+- **Professional Experience:** An overview of my development background.
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- pnpm
+
+### Installation
+
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd <project-folder>
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install the dependencies:
 
-## Learn More
+```bash
+pnpm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The portfolio is deployed on [Vercel](https://vercel.com).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Live URL:** [myportfolio-zeta-coral.vercel.app](https://myportfolio-zeta-coral.vercel.app)
+
+---
+
+**Owned and built by Ogechukwu Philomena Gerald-Ikedinma.**
